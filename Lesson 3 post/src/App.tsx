@@ -1,16 +1,21 @@
 import React from 'react';
+import Clicker from './component/clicker/Clicker';
+import Timer from './component/timer/Timer';
 //import logo from './logo.svg';
 import './App.css';
 //import Button from './component/button/Button';
 import Posts from './component/posts/Posts'
+import Header from './component/header/Header';
 
-function App() {
+const App: React.FC = () => {
   // const handclick = () => console.log(`Click green button`);
 
   return (
     <div className="App">
+      <Header />
       <Posts />
-
+      {/* <Clicker />*/}
+      {/*<Timer />*/}
 
 
       {/*<Button

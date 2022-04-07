@@ -1,9 +1,10 @@
 .App {
   padding: 24px;
   display: flex;
-  height: 100px;
+  min-height: 100hv;
   justify-content: center;
   /*align-items: center;*/
+  background-color: #EFEBE9;
 }
 
 /*
